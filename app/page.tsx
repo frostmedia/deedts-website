@@ -3,7 +3,15 @@ import Image from "next/image"
 import EmblaCarousel from "@/components/slider/EmblaCarousel"
 
 const OPTIONS = { loop: true }
-const SLIDES = ['/assets/IMG_0775.JPG', '/assets/IMG_0715.JPG', '/assets/IMG_0466.JPG']
+const SLIDES = [
+  '/assets/IMG_0775.JPG',
+  '/assets/IMG_1082.JPG',
+  '/assets/IMG_0715.JPG',
+  '/assets/IMG_1525.JPG',
+  '/assets/IMG_0832.JPG',
+  '/assets/IMG_0466.JPG',
+  '/assets/IMG_0717.JPG',
+]
 
 export default function Home() {
   return (
